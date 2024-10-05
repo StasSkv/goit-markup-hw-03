@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-web {
+    font-family: 'Raleway', sans-serif;
+    color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-studio {
+    color: #2e2f42;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.navigation {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navigation:hover {
+    color: #404bbf;
+}
+
+.navigation:focus {
+    color: #404bbf;
+}
+
+.kontakty {
+    font-style: normal;
+}
+
+.adres-to:hover {
+    color: #404bbf;
+}
+
+.adres-to:focus {
+    color: #404bbf;
+}
+
+.adres-to {
+    color: #434455;
+    font-family: 'Roboto';
+}
+
+.first {
+    background-color: #2e2f42;
+}
+
+.zagolovok-first {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.servis-to {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #4d5ae5;
+    border: none;
+    cursor: pointer;
+}
+
+.servis-to:hover {
+    background-color: #404bbf;
+}
+
+.servis-to:focus {
+    background-color: #404bbf;
+}
+
+.zagolovok-second {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.zagolovok-third {
+    color: #2e2f42;
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.our-team {
+    background-color: #f4f4fd;
+}
+
+.our-team-card {
+    background-color: #FFFFFF;
+}
+
+.end {
+    background-color: #2e2f42;
+}
+
+.end-logo-studio {
+    color: #f4f4fd;
+}
+
+.end-text {
+    color: #f4f4fd;
+}
