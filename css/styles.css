@@ -89,10 +89,7 @@ a {
   font-family: "Roboto";
 }
 
-.menu-navigation-logo {
-  display: flex;
-  margin-right: 76px;
-}
+
 
 .container {
 width: 1158px;
@@ -100,23 +97,15 @@ margin: 0 auto;
 padding: 0 15px;
 }
 
-
 .menu {
-  width: 1440px;
-  padding: 24px 156px;
   border-bottom: 1px solid #e7e9fc;
+width: 1440px;
 }
 
 .menu-container {
   display: flex;
-  align-items: center;
-  padding: 0 15px;
-}
-
-.menu-container {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
+
 }
 
 .menu-navigation {
@@ -124,23 +113,28 @@ padding: 0 15px;
   align-items: center;
 }
 
+.menu-navigation-logo {
+  margin-right: 76px;
+
+}
+
 .menu-navigation-list {
   display: flex;
-  align-items: center;
   gap: 40px;
+}
+
+.menu-navigation-item {
+  padding: 24px 0;
 }
 
 .menu-kontakty {
   display: flex;
-  align-items: center;
-  justify-content: end;
   gap: 40px;
+  justify-content: center;
+padding: 24px 0;
 }
-.navigation {
-  padding: 24px 0;
-}
-
 /* 
+
 -------------------------------------------                 FIRST
 ---------------------------------------- */
 
