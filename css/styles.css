@@ -107,9 +107,11 @@ padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
 }
 
-.menu .container {
+.menu-container {
   display: flex;
   align-items: center;
+  padding: 0 15px;
+  margin: 0;
 }
 
 .menu .menu-container {
