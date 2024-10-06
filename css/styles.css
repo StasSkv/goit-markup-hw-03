@@ -123,16 +123,23 @@ width: 1440px;
   gap: 40px;
 }
 
-.menu-navigation-item {
+.navigation {
   padding: 24px 0;
 }
 
 .menu-kontakty {
   display: flex;
   gap: 40px;
-  justify-content: center;
+ 
 padding: 24px 0;
 }
+
+
+
+
+
+
+
 /* 
 
 -------------------------------------------                 FIRST
