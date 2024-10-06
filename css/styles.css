@@ -1,143 +1,349 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #fff;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-weight: 400;
-    font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-ul {
-    list-style-type: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
+/* -------------------------------------------                         MENU
+---------------------------------------- */
+
+
+
 .logo-web {
-    font-family: 'Raleway', sans-serif;
-    color: #4d5ae5;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-studio {
-    color: #2e2f42;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .navigation {
-    color: #2e2f42;
-    font-weight: 500;
-    font-size: 16px;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .navigation:hover {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .navigation:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .kontakty {
-    font-style: normal;
+  font-style: normal;
 }
 
 .adres-to:hover {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .adres-to:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .adres-to {
-    color: #434455;
-    font-family: 'Roboto';
+  color: #434455;
+  font-family: "Roboto";
 }
 
+.menu-navigation-logo {
+    display: flex;
+    margin-right: 76px;
+}
+
+.menu {
+    width: 1440px;
+    padding: 24px 156px;
+    border-bottom: 2px solid #000;;
+}
+
+.menu .container {
+    display: flex;
+    align-items: center;
+}
+
+.menu .menu-container {
+    width: 1128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.menu-navigation-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu-kontakty {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+}
+
+
+/* 
+-------------------------------------------                 FIRST
+---------------------------------------- */
+
 .first {
-    background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .zagolovok-first {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 
 .servis-to {
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.04em;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: #4d5ae5;
-    border: none;
-    cursor: pointer;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #4d5ae5;
+  border: none;
+  cursor: pointer;
 }
 
 .servis-to:hover {
-    background-color: #404bbf;
+  background-color: #404bbf;
 }
 
 .servis-to:focus {
-    background-color: #404bbf;
+  background-color: #404bbf;
 }
 
+.main {
+    width: 1440px;
+}
+
+.main .first .container {
+    padding: 188px 472px;
+}
+
+.solution-title {
+    margin-bottom: 48px;
+}
+
+.servis-to {
+    margin: auto;
+    display: block;
+    padding: 16px 32px;
+}
+
+
+/* -----------------------------------------                  about-us
+---------------------------------------- */
+
 .zagolovok-second {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    color: #2e2f42;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 .zagolovok-third {
-    color: #2e2f42;
-    line-height: 1.2;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
+  color: #2e2f42;
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
 }
 
 .text {
-    font-size: 16px;
+  font-size: 16px;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 120px 156px;
+}
+
+
+
+.about-us-list {
+    display: flex;
+    gap: 24px;
+}
+
+.about-us-item {
+flex-basis: calc((100% - 3*
+24px) / 4);
+}
+
+.about-us-text {
+    margin-top: 8px;
+} 
+
+
+/* -------------------------------------------                  OUR-TEAM
+---------------------------------------- */
+
+
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.our-team-title {
+    margin-bottom: 72px;
 }
 
 .our-team {
-    background-color: #f4f4fd;
+  background-color: #f4f4fd;
 }
 
 .our-team-card {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
+  flex-basis: calc((100% - 3*
+24px) / 4);
 }
 
+.our-team-image {
+    margin-bottom: 32px;
+
+}
+
+
+
+.our-team-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+justify-items: center;
+align-items: center;
+padding-bottom: 32px;
+}
+
+
+/* -------------------------------------------                PORTFOLIO
+---------------------------------------- */
+
+.portfolio {
+padding: 120px 156px;
+}
+
+.portfolio-title {
+    margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+grid-row-gap: 48px;
+}
+
+
+.portfolio-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+justify-items: center;
+padding-bottom: 32px;
+padding-top: 32px;
+padding-bottom: 32px;
+padding-left: 16px;
+
+}
+
+
+/* -------------------------------------------                  END
+---------------------------------------- */
+
 .end {
-    background-color: #2e2f42;
+  background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+  width: 1440px;
 }
 
 .end-logo-studio {
-    color: #f4f4fd;
+  color: #f4f4fd;
 }
 
 .end-text {
-    color: #f4f4fd;
+  color: #f4f4fd;
+  margin-top: 16px;
+}
+
+.end .container {
+    width: 264px;
 }
